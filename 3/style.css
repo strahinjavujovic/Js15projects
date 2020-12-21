@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h2:after {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 5px;
+  background-color: blue;
+  left: 960px;
+  top: 206px;
+}
+h2 {
+  font-size: 45px;
+}
+.all {
+  padding-top: 150px;
+  padding-left: 850px;
+}
+#info {
+  position: relative;
+}
+#info1 {
+  position: absolute;
+  width: 450px;
+  height: 350px;
+  visibility: hidden;
+}
+#info2 {
+  position: absolute;
+  width: 450px;
+  height: 350px;
+  visibility: hidden;
+}
+#info3 {
+  position: absolute;
+  width: 450px;
+  height: 350px;
+  visibility: hidden;
+}
+#info4 {
+  position: absolute;
+  width: 450px;
+  height: 350px;
+  visibility: hidden;
+}
+#buttons {
+  position: absolute;
+  top: 700px;
+}
+#buttons a {
+  font-size: 30px;
+  margin-right: 10px;
+}
