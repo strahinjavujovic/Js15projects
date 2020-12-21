@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.all {
+  padding-left: 900px;
+  padding-top: 150px;
+}
+h1 {
+  color: #222;
+  font-size: 65px;
+  padding-left: 80px;
+}
+#number {
+  font-size: 80px;
+  padding-left: 185px;
+}
+.buttons {
+  margin-top: 25px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.buttons a {
+  margin-right: 25px;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 2px solid #222;
+  border-radius: 5px 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transition: 0.2s;
+}
+.buttons a:hover {
+  cursor: pointer;
+  background-color: #222;
+  color: white;
+}
