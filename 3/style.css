@@ -35,7 +35,7 @@ h2 {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  margin-top: 15px;
+  margin-top: 35px;
   margin-left: 240px;
   padding-right: 15px;
   overflow: hidden;
@@ -54,7 +54,7 @@ h4:after {
   color: white;
   border-radius: 50%;
   left: 275px;
-  top: 25px;
+  top: 45px;
   font-weight: 900;
   place-items: center;
   display: grid;
