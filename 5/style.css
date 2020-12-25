@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #f1f5f8;
+}
+#click {
+    position: relative;
+    text-align: right;
+}
+#click:before {
+    content: "\f0c9";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 30px;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    color: #49a6e9;
+    position: fixed;
+    top: 2rem;
+    right: 3rem;
+    animation: bounce 2s ease-in-out infinite;
+}
+@keyframes bounce {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.sidebar {
+    transform: translate(-110%);
+    width: 430px;
+    transition: 0.5s;
+    background-color: #fff;
+    padding-top: 10px;
+    padding-left: 5px;
+    height: 1400px;
+}
+.fa-times:before {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    content: "\f00d";
+    color: red;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 30px;
+    transition: 1s;
+    cursor: pointer;
+}
+.sidebar-header {
+    padding-left: 15px;
+}
+.show-sidebar {
+    transform: translate(0%);
+    transition: 0.5s;
+}
+
+.btnRot {
+    padding-top: 2px;
+    position: absolute;
+    transition: 0.5s;
+    font-size: 1.75rem;
+    background: transparent;
+    border-color: transparent;
+    color: red;
+    top: 12px;
+    right: 2rem;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+}
+.btnRot:hover {
+    transform: rotate(720deg);
+}
+.sidebar-header {
+    display: flex;
+}
+.info {
+    margin-top: 10px;
+}
+.info li a {
+    display: block;
+    font-size: 30px;
+    padding: 24px 16px;
+    color: #617d98;
+}
+.info li {
+    width: 100%;
+
+    list-style-type: none;
+}
+.info a:hover {
+    background-color: #49a6e9;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.social {
+    margin-top: 400px;
+    position: absolute;
+    bottom: 250px;
+    left: 110px;
+    display: flex;
+}
+.social li {
+    width: 40px;
+    height: 36px;
+    flex-grow: 1;
+    list-style-type: none;
+}
+.social i {
+    color: #49a6e9;
+    font-size: 22px;
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+.social i:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
