@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+h2 {
+  font-family: "Great Vibes", cursive;
+  color: #c59d5f;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 55px;
+  letter-spacing: 5px;
+}
+.page {
+  padding-top: 140px;
+  width: 100%;
+  height: 100%;
+  background-color: #f1f5f8;
+}
+a {
+  color: #c59d5f;
+  font-size: 25px;
+  height: 21px;
+  width: 24px;
+}
+.questions > div {
+  width: 620px;
+  height: 48px;
+  border-radius: 10px 10px;
+  margin-bottom: 32px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 11px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 11px 5px rgba(0, 0, 0, 0.1);
+  padding: 24px 24px 0;
+}
+.questions {
+  position: fixed;
+  height: 450px;
+  margin-left: 37%;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 55px;
+}
+.questions > div p {
+  letter-spacing: 4px;
+  font-size: 20px;
+}
+.questions > div > div {
+  width: 572px;
+  height: auto;
+}
+.fButton {
+  position: absolute;
+  top: 20px;
+  right: 55px;
+}
+.sButton {
+  position: absolute;
+  top: 120px;
+  right: 55px;
+}
+.tButton {
+  position: absolute;
+  top: 225px;
+  right: 55px;
+}
+.fa-plus-square {
+  transform: rotate(0deg);
+  transition: 0.5s;
+}
+.fa-plus-square:hover {
+  transform: rotate(90deg);
+  transition: 0.5s;
+}
