@@ -72,6 +72,10 @@ a {
   transition: 0.5s;
 }
 .fa-plus-square:hover {
+  cursor: pointer;
   transform: rotate(90deg);
   transition: 0.5s;
+}
+.fa-minus-square:hover {
+  cursor: pointer;
 }
